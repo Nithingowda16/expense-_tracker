@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: spendwise-expense-tracker
+    env: static
+    buildCommand: ""
+    staticPublishPath: ./
